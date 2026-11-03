@@ -1,3 +1,5 @@
+# Developer: Hamdy Abou El Anein
+# Contact: hamdy.aea@protonmail.com
 from flask import Flask, render_template
 import random
 
@@ -10,4 +12,4 @@ def random_number():
 #avec le return, une seule ligne.
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
